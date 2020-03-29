@@ -59,7 +59,7 @@ def get_user_input():
         print(g+"[+]"+y+" Enter the words to create wordlist [finsh with 0]")
         words = ""
         while 1:
-            user_input = input(g+"[+] "+y)
+            user_input = input(g+"[+] "+w)
             if(user_input == "0"):
                 words = words[1::].split(",")
                 return words
